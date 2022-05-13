@@ -17,3 +17,15 @@ disponible = false;
 var categoría = 'Computadoras';
 var marca = "Marca Famosa";
 var calificacion = 9;
+
+// Las variables no pueden ser definidas inicialmente con números
+//var 01_;
+// Las viables si pueden ser definidas inicialmente con guion
+//var _01;
+//var _usuario;
+//var __usuario;
+//Uso de alguna sintaxis para definir las variables
+
+//var nombreProducto;  //Camel case
+//var nombre_producto;  //Underscore, Snake o serpiente
+//var NombreProducto; //Pascal case, aunque este tipo de sintaxis es usada para la creación de clases
