@@ -1,7 +1,7 @@
 let producto ='Tablet';
 
 
-//  Reasignar el valor, si y solo si estan definidas previamente con let
+//  Cuando se utiliza "let", se puede reasignar el valor, si y solo si estan definidas previamente con let
 
 producto = "Monitor";
 
