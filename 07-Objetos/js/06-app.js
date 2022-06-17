@@ -1,5 +1,5 @@
 //  IDS. Eric Márquez Salas
-//  Trabajo con POO
+//  Trabajo con POO Programación Orientada a Objetos
 
 //  Creamos un objeto dentro de otro objeto
 
@@ -28,6 +28,11 @@ const producto = {
 //console.log(pais);
 
 //  Extraer varias propiedades
- const { nombre, informacion, informacion: { caracteristicas:{peso} }} = producto;
+ //const { nombre, informacion, informacion: { caracteristicas:{peso} }} = producto;
+ //console.log(nombre);
+ //console.log(peso);
+ const {nombre, informacion, informacion:{ fabricacion, fabricacion:{pais}}} = producto;
  console.log(nombre);
- console.log(peso);
+ console.log(informacion);
+ console.log(pais);
+ console.log(fabricacion);

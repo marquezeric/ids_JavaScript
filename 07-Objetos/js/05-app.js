@@ -16,6 +16,11 @@ const producto = {
         fabricacion: {
             pais: 'China',
         }
+    },
+    caracteristica: {
+        color : 'Negro',
+        marca : 'LG Electronics',
+
     }
 }
 
@@ -28,4 +33,5 @@ console.log(producto.disponible);
 console.log(producto.informacion.medidas.peso);
 console.log(producto.informacion.medidas.medida);
 console.log(producto.informacion.fabricacion.pais);
-
+console.log(producto.caracteristica.color);
+console.log(producto.caracteristica.marca);

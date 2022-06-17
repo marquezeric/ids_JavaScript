@@ -8,12 +8,12 @@ const producto = {
     disponible: true,
 }
 
-//  Agregar nuevas propiedades despues de la ejecucion del proyecto
+//  Agregar nuevas propiedades después o fuera del objeto
 
 producto.cantidad = 25;
 producto.imagen = "imagen.jpg";
 
-//  Elimninar propiedades después de la ejecución del proyecto
+//  Elimninar propiedades fuera del objeto
 
 delete producto.disponible;
 

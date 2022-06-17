@@ -1,6 +1,6 @@
 //  IDS. Eric Márquez Salas
 //  Trabajo con POO
-
+//  Acceder a las propiedades del objeto
 
 //  Objeto
 const producto = {
@@ -14,8 +14,8 @@ console.log(producto);
 //  Sintaxis de punto, al tener creado el objeto se puede acceder a las 
 //  propiedades que tiene la clase, como abajo se muestra
 
-console.log(producto.nombre);
-
+console.log(producto.nombre); //  Sintaxis de punto
+console.log(producto.disponible );
 console.log(producto.precio );
 
-console.log(producto['precio']);
+console.log(producto['precio']);  //  Esta sintaxis no es tan común

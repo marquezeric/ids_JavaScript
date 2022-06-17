@@ -8,12 +8,10 @@ const producto = {
     disponible: true,
 }
 
-//  Extrer propiedad 
-
+//  Forma normal de extraer la propiedad de una clase
 //console.log(producto.nombre);
 
-//  Asignar el valor a su propia variable
-
+//  Extrer una propiedad de la clase y asignarla a su propia variable
 //const nombre = producto.nombre;  //  Extraemos del objeto la propiedad "nombre"  > producto.nombre y tambien la asignamos a la variable nombre
 //console.log(nombre);
 
