@@ -1,7 +1,7 @@
 //  IDS-Eric Márquez
 //  Programación Orientada a Objetos con JavaScript
 //  this en una forma de referirse al objeto mismo, es decir lee los valores de las propiedades
-//  que existen en el mismo objeto, siempre y cuando se llamen
+//  que existen en el mismo objeto
 
 const producto = {
     nombre: "Monitor 20 Pulgadas",
