@@ -1,3 +1,8 @@
+/*Ing. Desarrollo de Software Eric Márquez Salas
+  Curso de JavaScript Moderno
+  Uso de variables JavaScript 2022
+ */
+
 //Inicializar una variable con un valor
 var producto ="Monitor de 24 Pulgadas";
 console.log(producto);
@@ -14,11 +19,11 @@ disponible = true;
 disponible = false;
 
 // Inicializar multiples variables
-var categoría = 'Computadoras';
+var categoría = 'Computadoras', marca ="Marca Famosa";
 var marca = "Marca Famosa";
 var calificacion = 9;
 
-// Las variables no pueden ser definidas inicialmente con números
+// Las variables no pueden inicializar con números
 //var 01_;
 // Las viables si pueden ser definidas inicialmente con guion
 //var _01;

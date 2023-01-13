@@ -1,5 +1,7 @@
-//  IDS. Eric Márquez Salas
-// Cortar y Remplazar  Strings
+/*Ing. Desarrollo de Software Eric Márquez Salas
+    Curso de JavaScript Moderno
+    Remplazar / Cortar   Strings
+*/
 
 const producto ='Monitor de 20 Pulgadas';
 
@@ -10,7 +12,7 @@ console.log(producto.replace('Pulgadas', '"'));  //  Poner atención a que la pa
 
 console.log(producto.replace('Monitor', 'Pantalla plana').replace('Pulgadas','"'));
 
-//  .slice()  para cortar
+//  .slice(Inicio,Fin)  para cortar, si solo se pone un parámetro, lo tomará como que es el segundo
 console.log(producto.slice(0,10));
 console.log(producto.slice(8));
 console.log(producto.slice(2,1));
