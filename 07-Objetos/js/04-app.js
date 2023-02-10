@@ -1,5 +1,8 @@
-//  IDS. Eric Márquez Salas
-//  Trabajo con POO
+/*Ing. Desarrollo de Software Eric Márquez Salas
+    Curso de JavaScript Moderno
+    Trabajo con Programación Orientada a Objetos POO
+    Uso de Destructuring
+*/
 
 //  DECLARAMOS EL OBJETO
 const producto = {
@@ -30,3 +33,5 @@ const {nombre, precio, disponible} = producto;
 console.log(nombre);
 console.log(precio);
 console.log(disponible);
+
+console.log(producto);

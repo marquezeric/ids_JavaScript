@@ -1,5 +1,6 @@
-//  IDS-Eric Márquez Salas
-//  Trabajo con arreglos
+/*Ing. Desarrollo de Software Eric Márquez Salas
+    Trabajos con Arrays
+*/
 
 //  Iterando un arreglo con forEach  o  map
 
@@ -30,24 +31,26 @@ const nuevoarreglo = carrito.map(function(producto) {
     return `${producto.nombre} - Precio: ${producto.precio}`;
 })
 
-console.log(nuevoarreglo);
+console.log(`Este es el nuevo arreglo usando map ${nuevoarreglo}`);
 
 const intellectual = [
-    {nombre: "Patentes", figura: "Invenciones"},
-    {nombre: "Diseños Industriales", figura: "Invenciones"},
-    {nombre: "Modelos de Utilidad", figura: "Invenciones"},
-    {nombre: "Variedades Vegetales", figura: "Invenciones"},
-    {nombre: "Inscripciones de Patentes", figura: "Invenciones"},
-    {nombre: "Marcas", figura: "Signos Distintivos"},
-    {nombre: "Avisos Comerciales", figura: "Signos Distintivos"},
-    {nombre: "Nombres Comerciales", figura: "Signos Distintivos"},
-    {nombre: "Denegaciones Provisionales", figura: "Signos Distintivos"},
-    {nombre: "Derechos de Autor", figura: "Signos Distintivos"},
-    {nombre: "Inscripciones de Signos Distintivos", figura: "Signos Distintivos"},
+    {nombre: "Patentes", figura: "Invenciones", clave: "P"},
+    {nombre: "Diseños Industriales", figura: "Invenciones", clave: "N"},
+    {nombre: "Modelos de Utilidad", figura: "Invenciones", clave: "U"},
+    {nombre: "Variedades Vegetales", figura: "Invenciones", clave: "V"},
+    {nombre: "Inscripciones de Invenciones", figura: "Inscripciones", clave: "S"},
+    {nombre: "Marcas", figura: "Signos Distintivos", clave: "M"},
+    {nombre: "Avisos Comerciales", figura: "Signos Distintivos", clave: "A"},
+    {nombre: "Nombres Comerciales", figura: "Signos Distintivos", clave: "T"},
+    {nombre: "Nombres de Dominio", figura: "Nombres de Dominio", clave: "E"},
+    {nombre: "Denegaciones Provisionales", figura: "Signos Distintivos", clave: "Y"},
+    {nombre: "Derechos de Autor", figura: "Signos Distintivos", clave: "D"},
+    {nombre: "Inscripciones de Signos Distintivos", figura: "Signos Distintivos", clave: "S"},
+
 ]
 
 const impi = intellectual.map(function(tipasunto){
-    return `${tipasunto.nombre} - figura: ${tipasunto.figura}`;
+    return `${tipasunto.nombre} - figura: ${tipasunto.figura} - clave: ${tipasunto.clave}`;
 })
 
 console.log(impi);

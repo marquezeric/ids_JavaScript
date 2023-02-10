@@ -1,10 +1,9 @@
-//  IDS-Eric Márquez
-//  Programación Orientada a Objetos con JavaScript
-//  ------Uso de tres métodos para objetos--------
-//  -----------Keys, Values, Entries-------------------
-//  this en una forma de referirse al objeto mismo, es decir lee los valores de las propiedades
-//  que existen en el mismo objeto
-
+/*Ing. Desarrollo de Software Eric Márquez Salas
+    Curso de JavaScript Moderno
+    Programación Orientada a Objetos con JavaScript
+------Uso de tres métodos para objetos que nos devuelven información de nuestro OBJETO--------
+-----------Keys, Values, Entries-------------------
+*/
 //  Object Literal
 const producto = {
     nombre: "Monitor 20 Pulgadas",

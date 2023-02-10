@@ -1,6 +1,7 @@
-//  IDS. Eric Márquez Salas
-//  Trabajar con números
-
+/*Ing. Desarrollo de Software Eric Márquez Salas
+    Curso de JavaScript Moderno
+    Trabajar con números
+*/
 
 const numero1 = "20";
 const numero2 = "20.2";
@@ -11,7 +12,7 @@ const numero4 = 20;
 console.log(numero1);
 console.log(Number.parseInt(numero1));  //  Lo convierte a número
 console.log(Number.parseFloat(numero2));  //  Lo convierte a número flotante
-console.log(Number.parseInt(numero3))
+console.log(Number.parseInt(numero3));
 
 
 //  Revisar si número son enteros o no lo son

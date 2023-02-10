@@ -1,8 +1,10 @@
-//  IDS-Eric Márquez
-//  Programación Orientada a Objetos con JavaScript
-//  Uso de seal --  Evita que los atributos de nuestras propiedades sean modificadas,
-//  así como también evita que se agreguen mas propiedades. Pero si se pueden modificar
-//  las propiedades ya existentes
+/*Ing. Desarrollo de Software Eric Márquez Salas
+    Curso de JavaScript Moderno
+    Trabajo con Programación Orientada a Objetos POO
+    Proteger nuestros objetos para que no puedan ser reescritos
+    Uso de SEAL --  Evita crear o eliminar propiedades, pero si se pueden modificar
+    las propiedades ya existentes
+*/
 
 const producto = {
     nombre: "Monitor 20 Pulgadas",

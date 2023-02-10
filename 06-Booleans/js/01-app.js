@@ -1,6 +1,7 @@
-//  IDS. Eric Márquez Salas
-//  Trabajar con operadores Boleanos
-
+/*Ing. Desarrollo de Software Eric Márquez Salas
+    Curso de JavaScript Moderno
+    Trabajar con operadores booleanos
+*/
 const boolean1 = true;
 const boolean2 = false;
 const boolean3 = "true";

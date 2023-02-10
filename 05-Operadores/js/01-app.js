@@ -1,5 +1,7 @@
-//  IDS. Eric Márquez Salas
-//  Trabajar con operadore lógicos
+/*Ing. Desarrollo de Software Eric Márquez Salas
+    Curso de JavaScript Moderno
+    Trabajar con operadores lógicos
+*/
 
 const numero1 = 20;
 const numero2 = "20";

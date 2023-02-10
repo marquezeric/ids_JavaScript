@@ -1,6 +1,7 @@
-//  IDS. Eric Márquez Salas
-//  Trabajar con operadores Boleanos
-
+/*Ing. Desarrollo de Software Eric Márquez Salas
+    Curso de JavaScript Moderno
+    Trabajar con operadores booleanos
+*/
 const autenticado = false;
 
 //  Comentar solo por uso del operador ternario

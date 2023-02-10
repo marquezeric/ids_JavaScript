@@ -1,5 +1,7 @@
-//  IDS. Eric Márquez Salas
-//  Trabajar con números
+/*Ing. Desarrollo de Software Eric Márquez Salas
+    Curso de JavaScript Moderno
+    Trabajar con números y funciones matemáticas
+*/
 
 let resultado;
 let resultaa;

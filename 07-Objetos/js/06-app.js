@@ -1,8 +1,8 @@
-//  IDS. Eric Márquez Salas
-//  Trabajo con POO Programación Orientada a Objetos
-
-//  Creamos un objeto dentro de otro objeto
-
+/*Ing. Desarrollo de Software Eric Márquez Salas
+    Curso de JavaScript Moderno
+    Trabajo con Programación Orientada a Objetos POO
+    Creamos un objeto dentro de otro objeto{{}}
+*/
 //  DECLARAMOS EL OBJETO
 const producto = {
     nombre: "Monitor 20 Pulgadas",
@@ -15,10 +15,25 @@ const producto = {
         },
         fabricacion: {
             pais: 'China',
+            clave: 'CH',
         }
+    },
+    distribuidor: {
+        nombre: 'ERMS-Delivery',
+        zona: 'Metropolitana',
+        reparto: 45,
+        unidades: {
+            marca: 'suzuki',
+            modelo: '2023',
+            especificaciones : {
+                cilindros: 4,
+                combustible: 'Gasolina',
+                tipo: 'Hatchback',
+            }
+        },
     }
+    
 }
-
 //  Usando Destructuring  (Extraer el nombre y crear una variable del primer objeto)
 
 //const {nombre} = producto;
@@ -32,7 +47,9 @@ const producto = {
  //console.log(nombre);
  //console.log(peso);
  const {nombre, informacion, informacion:{ fabricacion, fabricacion:{pais}}} = producto;
+ const {distribuidor:{unidades:{especificaciones:{tipo}}}} = producto;  //  Obtener el tipo de especificación de las unidades del distribuidor
  console.log(nombre);
- console.log(informacion);
+ //console.log(informacion);
  console.log(pais);
  console.log(fabricacion);
+ console.log(tipo);

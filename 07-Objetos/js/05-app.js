@@ -1,7 +1,8 @@
-//  IDS. Eric Márquez Salas
-//  Trabajo con POO
-
-//  Creamos un objeto dentro de otro objeto
+/*Ing. Desarrollo de Software Eric Márquez Salas
+    Curso de JavaScript Moderno
+    Trabajo con Programación Orientada a Objetos POO
+    Creamos un objeto dentro de otro objeto
+*/
 
 //  DECLARAMOS EL OBJETO
 const producto = {
@@ -15,6 +16,7 @@ const producto = {
         },
         fabricacion: {
             pais: 'China',
+            clave: 'CH',
         }
     },
     caracteristica: {
@@ -24,14 +26,17 @@ const producto = {
     }
 }
 
+console.log(producto);
+
 const nombre = producto.nombre;
 console.log(nombre);
 
 console.log(producto.disponible);
 
-//  Extraer peso y medida
+//  Extraer información de acuerdo al objeto en que se encuentre
 console.log(producto.informacion.medidas.peso);
 console.log(producto.informacion.medidas.medida);
 console.log(producto.informacion.fabricacion.pais);
+console.log(producto.informacion.fabricacion.clave);
 console.log(producto.caracteristica.color);
 console.log(producto.caracteristica.marca);

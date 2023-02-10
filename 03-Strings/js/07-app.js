@@ -1,7 +1,9 @@
-//  IDS. Eric Márquez Salas
-//  Repetir Strings
+/*Ing. Desarrollo de Software Eric Márquez Salas
+    Curso de JavaScript Moderno
+    Cambio de Mayúsculas o Minúsculas
+*/
 
-//  .repeat  Permite repetir un String las veces indicadas
+//  Cambiar a Mayúsculas o minúsculas
 const producto ='Monitor de 20 Pulgadas';
 
 console.log(producto.toUpperCase());
@@ -9,6 +11,8 @@ console.log(producto.toUpperCase());
 console.log(producto.toLowerCase());
 
 const email = "IDSEMARQUEZ@GMAIL.COM";
+
+const nvoemail = email;
 
 console.log(email.toLowerCase());
 

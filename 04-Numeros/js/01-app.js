@@ -1,5 +1,9 @@
-//  IDS. Eric Márquez Salas
-//  Trabajar con números
+/*Ing. Desarrollo de Software Eric Márquez Salas
+    Curso de JavaScript Moderno
+    Trabajar con números
+*/
+
+
 
 //const numero1 = 20;
 //const numero2 = "20";
@@ -8,7 +12,7 @@
 
 //console.log(numero2);
 
-//  Los número pueden ser positivos, negativos , pero todos se construyen igual
+//  Los números pueden ser positivos, negativos , pero todos se construyen igual
 const numero1 = 30;
 const numero2 = 20;
 const numero3 = 20.20;

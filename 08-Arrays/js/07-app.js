@@ -1,5 +1,6 @@
-//  IDS-Eric Márquez Salas
-//  Trabajo con arreglos
+/*Ing. Desarrollo de Software Eric Márquez Salas
+    Trabajos con Arrays
+*/
 
 // --------- Ejemplo de un carrito de compras--------
 
@@ -53,5 +54,5 @@ console.table(carrito);
 
 // Eliminar valores intermedios
 
-carrito.splice(1,2);
+carrito.splice(1,2);  //  Posición inicial y Cuantos elementos 
 console.table(carrito);

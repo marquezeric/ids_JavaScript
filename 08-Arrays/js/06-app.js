@@ -1,6 +1,7 @@
-//  IDS-Eric Márquez Salas
-//  Trabajo con arreglos
-
+/*Ing. Desarrollo de Software Eric Márquez Salas
+    Trabajos con Arrays
+    Uso del SPREAD OPERATOR para agregar al inicio o al final de nuestro arreglo
+*/
 
 // --------- Ejemplo de un carrito de compras--------
 
@@ -19,7 +20,7 @@ const producto2 = {
 }
 
 const producto3 = {
-    nombre: "Celular Nova P9",
+    nombre: "Celular Nova i8",
     precio: 900
 }
 

@@ -15,11 +15,11 @@ console.log(producto.replace('Monitor', 'Pantalla plana').replace('Pulgadas','"'
 //  .slice(Inicio,Fin)  para cortar, si solo se pone un parámetro, lo tomará como que es el segundo
 console.log(producto.slice(0,10));
 console.log(producto.slice(8));
-console.log(producto.slice(2,1));
+console.log(producto.slice(2,1)); // Si el primer parámetro es mayor que el segundo esta función no realizará nada
 
 // Opción alterna a slice, substring detecta que el primer parámetro es mas grande que el segundo, y lo corrige
 console.log(producto.substring(0,10));
-console.log(producto.substring(1,2));
+console.log(producto.substring(1,2));  //  El parámetro final no lo toma en cuenta, ese es el Límite
 
 const usuario = "Eric";
 

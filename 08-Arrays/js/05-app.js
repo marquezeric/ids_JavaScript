@@ -1,5 +1,7 @@
-//  IDS-Eric Márquez Salas
-//  Trabajo con arreglos
+/*Ing. Desarrollo de Software Eric Márquez Salas
+    Trabajos con Arrays
+    Uso de los métodos PUSH, UNSHIFT
+*/
 
 //  Uso de métodos  PUSH, UNSHIFT dentro de los arreglos
 
@@ -37,9 +39,13 @@ const producto3 = {
     precio: 900
 }
 
+
 //carrito.push(producto3);  //  Agregará al final nuestro prodcuto3
 //  Si queremos que producto3 se agregue pero al principio de nuestro arreglo y no al final que es como sucedería con PUSH
 //  Utlizamos UNSHIFT
+//carrito.push(producto3);
+console.log(carrito.length)
+
 carrito.unshift(producto3);
 
 console.table(carrito);  //  Mostramos todo nuestro arreglo
