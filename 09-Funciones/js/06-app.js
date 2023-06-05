@@ -1,8 +1,9 @@
-//  IDS-Eric Márquez Salas
-//  Funciones
-//  Se itiliza la palabra reservada function
-//  cuando se quiera visualizar el resultado de nuestra función solo llamamos a nuestra función.
-//  JavaScript cuenta con mas de 4000 funciones preescritas
+/*  Ing. Desarrollo de Software Eric Márquez Salas
+    Funciones
+    Se itiliza la palabra reservada function
+    cuando se quiera visualizar el resultado de nuestra función solo llamamos a nuestra función.
+    JavaScript cuenta con mas de 4000 funciones preescritas
+*/
 
 //  -------- Parámetros por dedault -----------------
 //  Los parámetros por Default son aquellos que se utilizarán en automático,
