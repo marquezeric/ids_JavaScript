@@ -1,4 +1,4 @@
-//  IDS-Eric Márquez Salas
+// Ing. Desarrollo de Software Eric Márquez Salas
 //  Funciones
 //  Se itiliza la palabra reservada function
 
@@ -16,7 +16,7 @@ conducir('Suzuki Scross');  //  Forma tradicional de pasar parámetros en funcio
 // -----Así como también cuando se tiene una solo línea las Arrow Function dan por implícito el return
 // -----por consiguiente se elimina el console.log
 const conducir2 = automovil2 => `Antes conducíamos el ${automovil2}`;
-//  ---Si solo se usa un parámetro se puede precindir del paréntesis, si es mayor a un parámetro, se usarán los paréntesis
+//  ---Si solo se usa un parámetro se puede precindir de los paréntesis, si es mayor a un parámetro, si se usarán los paréntesis
 const conducir3 = (automovil3, potencia3, transmision3) => `Antes conducíamos el mismo ${automovil3} con un ${potencia3} y ${transmision3}`;  //  Los paréntesis del valor del parámetro no son necesarios
 
 

@@ -1,4 +1,4 @@
-//  IDS-Eric Márquez Salas
+//  Ing. Desarrollo de Software Eric Márquez Salas
 //  Funciones
 //  Se itiliza la palabra reservada function
 
@@ -13,13 +13,27 @@ const carrito = [
     {nombre: "Celular", precio: 470},
 ]
 
+const estado_asunto = [
+    {nombre: "ABANDONADO", clave: 'A'},
+    {nombre: "CADUCO", clave: "C"},
+    {nombre: "DESTRUIDO", clave: "D"},
+    {nombre: "REDEPOSITADO", clave: "R"},
+    {nombre: "TRANSFERIDO", clave: "T"},
+    {nombre: "VIGENTE", clave: "V"},
+    {nombre: "NO EFECTUADO", clave: "N"},
+    {nombre: "CANCELADO", clave: "F"},
+    {nombre: "CONCLUIDO", clave: "O"},
+    {nombre: "VIG-DES", clave: "X"}
+]
+
+
 //--------------  Iteración con map y función normal
 
 //const nuevoarreglo = carrito.map(function(producto) {
 //    return `${producto.nombre} - Precio: ${producto.precio}`;
 //})
 
-//---- Aplicando con un Arrow Function
+//---- Aplicando con un Arrow Function con map
 
 const nuevoArreglo = carrito.map(producto => `${producto.nombre} - Precio ${producto.precio}`);
 
@@ -38,6 +52,8 @@ carrito.forEach(producto => console.log(`${producto.nombre} - Precio: ${producto
 
 
 console.log(nuevoArreglo);
-
 console.table(carrito);
 console.log(carrito.length);
+
+estado_asunto.forEach(estatus => console.log(`${estatus.nombre} - clave ${estatus.clave}`));
+console.table(estado_asunto);

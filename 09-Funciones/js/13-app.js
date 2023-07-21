@@ -1,4 +1,4 @@
-//  IDS-Eric Márquez Salas
+//  Ing. Desarrollo de Software Eric Márquez Salas
 //  Funciones
 //  Se itiliza la palabra reservada function
 
@@ -28,8 +28,6 @@
 //reproductor.borrar('31');
 //reproductor.adelantar('Aun');
 //reproductor.atrasar(31);
-
-
 
 const reproductor = {
     reproducir: (id, titulo, artista) => console.log(`Reproduciendo canción con número: ${id} - ${titulo} del ${artista}`),

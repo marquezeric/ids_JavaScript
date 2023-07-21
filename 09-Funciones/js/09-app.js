@@ -1,4 +1,4 @@
-//  IDS-Eric Márquez Salas
+//  Ing. Desarrollo de Software Eric Márquez Salas
 //  Funciones
 //  Se itiliza la palabra reservada function
 //  cuando se quiera visualizar el resultado de nuestra función solo llamamos a nuestra función.
@@ -6,6 +6,7 @@
 
 //  -------- Añadir Funciones dentro Objetos -------------
 //  ---------Métodos de propiedad---------------
+//  --Se llaman así porque son funciones que se encuentran dentro de p
 const reproductor = {
     reproducir: function(id, titulo, artista) {
         console.log(`Reproduciendo canción con número: ${id} título: ${titulo} artista: ${artista}`);
@@ -21,6 +22,12 @@ const reproductor = {
     },
     atrasar: function(id) {
         console.log(`Retrasando canción ${id}`);
+    },
+    crearPlaylist: function(playlist) {
+        console.log(`Creando Playlist ${playlist}`);
+    },
+    reproducirPlaylist: function(playlist) {
+        console.log(`Reproduciendo la playlist ${playlist}`);
     }
 }
 
@@ -30,6 +37,8 @@ reproductor.pausar(31);
 reproductor.borrar('31');
 reproductor.adelantar('Aun');
 reproductor.atrasar(31);
+reproductor.crearPlaylist('Hard Rock');
+reproductor.reproducirPlaylist('Salsa Manía');
 
 //  ---------------  Segundo ejercicio de funciones dentro de objetos  ----------------
 const conducir = {
